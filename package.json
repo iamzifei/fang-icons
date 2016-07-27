@@ -1,0 +1,25 @@
+{
+  "name": "fang-icons",
+  "version": "1.0.0",
+  "description": "icons for real estate usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamzifei/fang-icons.git"
+  },
+  "keywords": [
+    "real-estate",
+    "fang",
+    "property",
+    "icons"
+  ],
+  "author": "James Gong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamzifei/fang-icons/issues"
+  },
+  "homepage": "https://github.com/iamzifei/fang-icons#readme"
+}
