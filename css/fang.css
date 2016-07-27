@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'fang';
+  src: url('../font/fang.eot?51201664');
+  src: url('../font/fang.eot?51201664#iefix') format('embedded-opentype'),
+       url('../font/fang.woff2?51201664') format('woff2'),
+       url('../font/fang.woff?51201664') format('woff'),
+       url('../font/fang.ttf?51201664') format('truetype'),
+       url('../font/fang.svg?51201664#fang') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fang';
+    src: url('../font/fang.svg?51201664#fang') format('svg');
+  }
+}
+*/
+ 
+ [class^="fang-"]:before, [class*=" fang-"]:before {
+  font-family: "fang";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.fang-furnished:before { content: '\e800'; } /* '' */
+.fang-calendar:before { content: '\e801'; } /* '' */
+.fang-cooking:before { content: '\e802'; } /* '' */
+.fang-garage:before { content: '\e803'; } /* '' */
+.fang-aircon:before { content: '\e804'; } /* '' */
+.fang-bill-include:before { content: '\e805'; } /* '' */
+.fang-ensuite:before { content: '\e806'; } /* '' */
+.fang-gym:before { content: '\e807'; } /* '' */
+.fang-bbq:before { content: '\e808'; } /* '' */
+.fang-arrows:before { content: '\f100'; } /* '' */
+.fang-apartment:before { content: '\f101'; } /* '' */
+.fang-email:before { content: '\f102'; } /* '' */
+.fang-favorite:before { content: '\f103'; } /* '' */
+.fang-filter:before { content: '\f104'; } /* '' */
+.fang-cctv:before { content: '\f105'; } /* '' */
+.fang-listing:before { content: '\f106'; } /* '' */
+.fang-phone:before { content: '\f107'; } /* '' */
+.fang-female-prefer:before { content: '\f108'; } /* '' */
+.fang-search:before { content: '\f109'; } /* '' */
+.fang-user:before { content: '\f10a'; } /* '' */
+.fang-wechat:before { content: '\f10b'; } /* '' */
+.fang-house:before { content: '\f10c'; } /* '' */
+.fang-internet:before { content: '\f10d'; } /* '' */
+.fang-living-room:before { content: '\f10e'; } /* '' */
+.fang-location:before { content: '\f10f'; } /* '' */
+.fang-master-room:before { content: '\f110'; } /* '' */
+.fang-no-smoking:before { content: '\f111'; } /* '' */
+.fang-pet-friendly:before { content: '\f112'; } /* '' */
+.fang-private-room:before { content: '\f113'; } /* '' */
+.fang-shared-room:before { content: '\f114'; } /* '' */
+.fang-swimming:before { content: '\f115'; } /* '' */
